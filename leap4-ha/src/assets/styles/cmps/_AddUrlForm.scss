@@ -1,0 +1,18 @@
+body {
+}
+
+.add-url-form-container {
+    display: flex;
+    flex-direction: column;
+
+    .add-url-form {
+        gap: 20px;
+        align-items: center;
+        input {
+            width: 400px;
+        }
+        button {
+            width: 200px;
+        }
+    }
+}
